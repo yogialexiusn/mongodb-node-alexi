@@ -1,0 +1,5 @@
+Product.find({}) -> buat get
+Product.create({})-> buat post
+Product.findbyId(id) -> get Id
+findByIdAndUpdate
+findByIdAndDelete

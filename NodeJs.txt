@@ -1,0 +1,27 @@
+1. node json working as event loop it means single thread java execution
+event loop is mean asyncronus with libraly libuv
+event loop adalah bagian mesin dari node js yang bekerja dibackground
+
+=======================================================
+const http = require("http");
+
+const server = http.createServer((req,res))=>{
+    res.end
+})
+
+server.listen
+
+Node start
+↓
+Daftarkan HTTP server
+↓
+Event loop berjalan dan menunggu request
+↓
+Request masuk -> callback request response dieksesuksi
+↓
+Kembali menunggu lagi
+=======================================================
+
+nodemon adalah part development
+ketika tidak menggunakan nodemon, maka kita perlu matikan server dulu baru re run ulang
+maka lebih baik menggunakan nodemon
